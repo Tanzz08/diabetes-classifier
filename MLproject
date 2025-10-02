@@ -1,0 +1,14 @@
+name: sistem-diabetes-classifier
+
+conda_env: conda.yaml
+
+entry_points:
+  main: 
+    parameters:
+      n_estimators: {type: int, default: 200}
+      max_depth: {type: int, default: 20}
+      X_train: {type: string, default: "X_train.csv"}
+      X_test: {type: string, default: "X_test.csv"}
+      y_train: {type: string, default: "y_train.csv"}
+      y_test: {type: string, default: "y_test.csv"}
+    command: "python modelling.py {n_estimators} {max_depth} {X_train} {X_test} {y_train} {y_test}"
