@@ -38,7 +38,7 @@ jobs:
 
       - name: Download dataset
         run: |
-          wget "https://drive.google.com/uc?export=download&id=1i5MwJku1raP2AaRqD5DITomIr7kSA3qo" -O dataset-preprocessing.csv
+          wget "https://drive.google.com/uc?export=download&id=10ggiCeNttEABQY5_aUd88IRqmsyhppjR" -O dataset-preprocessing.csv
 
       
       # Run as a mlflow project
