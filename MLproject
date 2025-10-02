@@ -7,5 +7,5 @@ entry_points:
     parameters:
       n_estimators: {type: int, default: 200}
       max_depth: {type: int, default: 20}
-      dataset : {type: string, default: 'https://drive.google.com/file/d/1i5MwJku1raP2AaRqD5DITomIr7kSA3qo/view?usp=sharing'}
+      dataset : {type: string, default: 'https://drive.google.com/file/d/10ggiCeNttEABQY5_aUd88IRqmsyhppjR/view?usp=drive_link'}
     command: "python modelling.py {n_estimators} {max_depth} {dataset}"
